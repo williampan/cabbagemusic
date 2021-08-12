@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}{{ " — " if title }}Le Petit Chou</title>
+    <link rel="stylesheet" href="/assets/css.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="site-title">
+                <a href="/">Le Petit Chou</a>
+            </div>
+            <nav>
+                <a href="/music">Music</a>
+                <a href="/instrumentals">Instrumentals</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <h1>{{ heading if heading else title }}</h1>
+            {{ content | safe }}
+        </main>
+        <footer>
+            <nav>
+                <a href="https://www.instagram.com/le.petit.chou/">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCTXgl3cf-25a41nUS3DhLUQ">YouTube</a>
+                <a href="https://www.facebook.com/lepetitchou.music">Facebook</a>
+                <a href="https://soundcloud.com/le-petit-chou-1">SoundCloud</a>
+                <a href="https://www.tiktok.com/@le.petit.chou?lang=en">TikTok</a>
+                <a href="mailto:le.petit.chou.music@gmail.com">Email</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
