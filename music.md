@@ -6,7 +6,7 @@ heading: From, 2
 {% image "./images/from2.jpg", "Album artwork for From, 2.", "" %}
 
 <p class="button-container">
-    <a class="button" href="">Listen</a>
+    <a class="button" href="https://lepetitchou.fanlink.to/From2">Listen</a>
 </p>
 
 In a railway station, the timetable shows all the trains of the day: where each one comes from and where each one is going to. Trains come and go. Sometimes they rest for a bit. Sometimes they rest for a while. But their comings and goings always have a destination in mind.
@@ -67,5 +67,5 @@ From: Alex
 To:
 
 <p class="button-container">
-    <a class="button" href="">Listen</a>
+    <a class="button" href="https://lepetitchou.fanlink.to/From2">Listen</a>
 <p>
