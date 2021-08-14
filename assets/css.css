@@ -1,3 +1,19 @@
+/* Fonts */ 
+@font-face { 
+    font-family: 'Bodoni 72';
+    src: url('Bodoni72Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal; 
+}
+@font-face { 
+    font-family: 'Bodoni 72';
+    src: url('Bodoni72BookItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal; 
+}
+
 /* Defaults */ 
 a {
     text-decoration: none; 
