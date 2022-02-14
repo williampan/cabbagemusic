@@ -23,7 +23,9 @@ a {
 body { 
     font-family: 'Bodoni 72', serif; 
     font-size: 24px; 
-    background-color: #fff4c1; 
+    background-color: white; 
+    background-image: url('./paper.jpg');
+    /* background-size: 100px;  */
 }
 
 
